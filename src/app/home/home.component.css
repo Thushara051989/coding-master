@@ -6,6 +6,7 @@
 }
 #pic{
     transform: 'translateX(20px)';
+    margin-top: 5px;
 }
 #myservice {
     width: 100%;
