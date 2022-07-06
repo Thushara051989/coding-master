@@ -1,0 +1,123 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    background: top center;
+    background-size:cover;
+}
+#pic{
+    transform: 'translateX(20px)';
+}
+#myservice {
+    width: 100%;
+    height: 100vh;
+    background: top center;
+    background-size:cover;
+    opacity: 100;
+}
+#myservice backgroundImage{
+  
+    opacity: 1;
+}
+#home p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    display: block;
+}
+
+h1{
+    color: #fff; 
+}
+
+#home p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+}
+.containers{
+    width:90%;
+    margin: 0 auto;
+}
+.partners img{
+ transition:all .3s ease
+}
+.partners img:hover{
+    box-shadow: 0 0 10px 1px #dbdbdb;
+}
+.containers{
+    width:90%;
+    margin:0 auto;
+}
+.testimonial-contents:hover{
+    box-shadow: 0 0 10px 1px #dbdbdb;
+    text-align: right;
+}
+#hi{
+    text-align:center;
+}
+.testimonial{
+    background-image: url(/assets/testi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px 0;
+    position: relative;
+}
+.testimonial-image{
+    width: 110 px;
+    height: 110 px;
+    margin: 0 auto;
+}
+.testimonial-image img{
+
+    border-radius: 50%;
+    border:5 px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 100%;
+   
+}
+.testimonial-content h4{
+    font-size: 16px;
+    color: #ff4000;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 18px 0 .5rem;
+    line-height: 1.2px;
+
+}
+.testimonial-content h6{
+    font-size: 15px;
+    color: black;
+        /* text-transform: uppercase; */
+    margin: 18px 0 10px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+
+}
+.testimonial-content p{
+    position: relative;
+    margin: 28px 30% 70px 30%;
+    font-style: italic;
+    font-size: 15px;
+    color: purple;
+    line-height: 23px;
+}
+.testimonial-content p::before{
+content :'\f10d';
+font-family: FontAwesome;
+position: absolute;
+left: -15% ;
+top: -15%;
+font-size: 20px;
+}
+.testimonial-content p::after{
+    content :'\f10e';
+font-family: FontAwesome;
+position: absolute;
+right: -15% ;
+bottom:-15%;
+font-size: 20px;
+
+}

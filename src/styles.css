@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+.policy-product .owl-next,.policy-product .owlprev{
+    background: rgb(158, 158, 158 /28%)!important;
+    color: #222!important;
+    height: 60px, impo !important;
+    width: 60px !important;
+    border-radius:50%!important;
+    position:absolute;
+}
+.testimonial .owl-prev, .testimonial .owl-next{
+    position: absolute !important;
+    background-color: #ffffff24 !important;
+    width:64px !important;
+    height: 64px !important;
+    border-radius: 50% !important;
+    z-index: 2 !important;
+    font-size: 70px !important;
+    color: #111 !important;
+     transition:  all .3s ease !important; 
+      top:35% !important;
+      transform: translate(-50%, -50%);
+
+}
+.testimonial .owl-prev{
+    left:14px !important;
+}
+.testimonial .owl-next{
+    right:-30px !important;
+}
+.testimonial .owl-prev i, .testimonial .owl-next i{
+    position: absolute !important;
+    top:5% !important;
+    left:30% !important;
+    transform: translate(-50% -50%) !important;
+}
+.testimonial .owl-prev:hover, .testimonial .owl-next:hover{
+    background-color: red!important;
+    color: white !important;
+}

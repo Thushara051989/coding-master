@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    vertical-align: middle;
+  
+  }
+  .footer p{
+      margin: 1px 0px ;
+  }
+  
+  .fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
