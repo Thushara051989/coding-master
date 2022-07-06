@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng b --prod --base-href https://thushara051989.github.io/coding-master/ && npx ngh --dir=dist/coding"
+    "deploy": "ng b --base-href https://thushara051989.github.io/coding-master/ && npx ngh --dir=dist/coding"
   },
   "private": true,
   "dependencies": {
