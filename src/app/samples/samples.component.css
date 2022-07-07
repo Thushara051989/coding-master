@@ -7,3 +7,13 @@ p{
     
    
 }
+
+picture{
+   border: 2px;
+}
+#about{
+    background-color: black;
+}
+h2{
+    color: white;
+}
