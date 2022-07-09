@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "coding-master": {
+    "coding": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/coding-master",
+            "outputPath": "dist/coding",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "coding-master:build:production"
+              "browserTarget": "coding:build:production"
             },
             "development": {
-              "browserTarget": "coding-master:build:development"
+              "browserTarget": "coding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "coding-master:build"
+            "browserTarget": "coding:build"
           }
         },
         "test": {
