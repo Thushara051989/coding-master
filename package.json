@@ -1,13 +1,13 @@
 {
-  "name": "coding",
+  "name": "coding-master",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "deploy": "ng b --base-href https://thushara051989.github.io/coding-master/ && npx ngh --dir=dist/coding"
+    "test": "ng test"
+   
   },
   "private": true,
   "dependencies": {
